@@ -1,0 +1,7 @@
+/node_modules/
+/.out/
+/lib/
+/public/build/
+/cypress/videos/
+/cypress/screenshots/
+pnpm-debug.log

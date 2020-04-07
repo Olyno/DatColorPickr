@@ -1,0 +1,50 @@
+{
+  "name": "@datcolorpickr/svelte",
+  "version": "0.1.0",
+  "description": "Color pickr component for SvelteJs",
+  "license": "GPL-3",
+  "repository": "Olyno/DatColorPickr",
+  "author": "Olyno",
+  "homepage": "https://github.com/Olyno/DatColorPickr/tree/master/packages/svelte-pickr/#readme",
+  "bugs": "https://github.com/Olyno/DatColorPickr/issues",
+  "main": "lib/index.js",
+  "module": "lib/index.es.js",
+  "svelte": "src/index.js",
+  "scripts": {
+    "serve": "node scripts/serve",
+    "build": "rollup -c configs/test2.js",
+    "dev": "rollup -cw",
+    "ci": "pnpm run build --filter @datcolorpickr/svelte && start-server-and-test serve :3000 test",
+    "test": "pnpm node serve --filter @datcolorpickr/svelte && cypress run",
+    "test:watch": "pnpm run serve --filter @datcolorpickr/svelte && cypress open"
+  },
+  "files": [
+    "lib",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "datcolorpickr",
+    "svelte-pickr",
+    "color pickr",
+    "svelte"
+  ],
+  "dependencies": {
+    "@simonwep/pickr": "^1.5.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-buble": "^0.21.1",
+    "@rollup/plugin-commonjs": "^11.0.2",
+    "@rollup/plugin-json": "^4.0.2",
+    "@rollup/plugin-node-resolve": "^6.1.0",
+    "cypress": "^4.3.0",
+    "koa": "^2.11.0",
+    "koa-static": "^5.0.0",
+    "pnpm": "^4.12.5",
+    "rollup": "^2.0.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-svelte": "^5.1.1",
+    "start-server-and-test": "^1.10.11",
+    "svelte": "^3.20.1"
+  }
+}
