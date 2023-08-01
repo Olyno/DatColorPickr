@@ -46,13 +46,13 @@ importers:
         version: 4.4.0(@babel/core@7.22.9)(rollup@2.2.0)
       rollup-plugin-svelte:
         specifier: ^5.1.1
-        version: 5.1.1(rollup@2.2.0)(svelte@3.20.1)
+        version: 5.1.1(rollup@2.2.0)(svelte@3.49.0)
       start-server-and-test:
         specifier: ^1.10.11
         version: 1.10.11
       svelte:
-        specifier: ^3.20.1
-        version: 3.20.1
+        specifier: ^3.49.0
+        version: 3.49.0
 
 packages:
 
@@ -2165,7 +2165,7 @@ packages:
       rollup-pluginutils: 2.8.2
     dev: true
 
-  /rollup-plugin-svelte@5.1.1(rollup@2.2.0)(svelte@3.20.1):
+  /rollup-plugin-svelte@5.1.1(rollup@2.2.0)(svelte@3.49.0):
     resolution: {integrity: sha512-wP3CnKHjR4fZUgNm5Iey7eItnxwnH/nAw568WJ8dpMSchBxxZ/DmKSx8e6h8k/B6SwG1wfGvWehadFJHcuFFSw==}
     peerDependencies:
       rollup: '>=0.60.0'
@@ -2175,7 +2175,7 @@ packages:
       rollup: 2.2.0
       rollup-pluginutils: 2.8.2
       sourcemap-codec: 1.4.8
-      svelte: 3.20.1
+      svelte: 3.49.0
     dev: true
 
   /rollup-pluginutils@2.8.2:
@@ -2386,8 +2386,8 @@ packages:
       has-flag: 4.0.0
     dev: true
 
-  /svelte@3.20.1:
-    resolution: {integrity: sha512-m/dw52BZf+p6KYnyKLErIcGalu4pwJrQbUM7VZriRw6ZlJj1qMAZsLcIWzEB3I0hhdJwkKb7LrrvUIeqmbO92Q==}
+  /svelte@3.49.0:
+    resolution: {integrity: sha512-+lmjic1pApJWDfPCpUUTc1m8azDqYCG1JN9YEngrx/hUyIcFJo6VZhj0A1Ai0wqoHcEIuQy+e9tk+4uDgdtsFA==}
     engines: {node: '>= 8'}
     dev: true
 
