@@ -38,7 +38,7 @@
     "@rollup/plugin-json": "^4.0.2",
     "@rollup/plugin-node-resolve": "^6.1.0",
     "cypress": "^4.3.0",
-    "koa": "^2.11.0",
+    "koa": "^2.15.4",
     "koa-static": "^5.0.0",
     "pnpm": "^7.33.4",
     "rollup": "^2.0.0",
