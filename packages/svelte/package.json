@@ -41,7 +41,7 @@
     "koa": "^2.11.0",
     "koa-static": "^5.0.0",
     "pnpm": "^7.33.4",
-    "rollup": "^2.0.0",
+    "rollup": "^2.79.2",
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-svelte": "^5.1.1",
     "start-server-and-test": "^1.10.11",
